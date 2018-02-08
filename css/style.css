@@ -1,0 +1,87 @@
+/* style.css */
+* {box-sizing: border-box;}
+
+body {
+
+  background-color: #CCCCCC;
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+  text-shadow: 2px 2px 5px #000;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: blue;
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+header {
+	background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/4AY00IIKGZ.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	text-align: center;
+	color:white;
+}
+
+header h1 {
+	color: white;
+	font-size: 50px;
+}
+
+header h2 {
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	padding: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#idphoto {
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+}
+/* Footer */
+
+footer {
+	background-color: #141414;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+footer a:hover {
+  color: white;
+}
